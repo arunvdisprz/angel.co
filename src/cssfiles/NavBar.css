@@ -1,0 +1,450 @@
+.NavBarMain {
+  background-color: #ffffff;
+  z-index: 200;
+  display: flex;
+  justify-content: space-between;
+}
+.NavBar {
+  border-bottom: 1px solid #d4d4d4;
+  z-index: 9999;
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 24px;
+  font-family: "angelarbeit", sans-serif;
+}
+.NavBar1 {
+  margin: 0%;
+}
+
+.NavBar2 {
+  font-size: 16px;
+  margin: 0%;
+  padding: 0%;
+  text-align: right;
+}
+
+.NavBar21 {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #000;
+  margin-right: 40px;
+}
+.NavBar21:hover {
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+}
+
+.NavBar23 {
+  font-family: "angelarbeit", sans-serif;
+  height: 42px;
+  margin-right: 16px;
+  padding: 8px 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcdcdc;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  transition: all 150ms ease;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.NavBar23:hover {
+  background: #eaebff;
+  border-color: #143fcd;
+  color: #143fcd;
+}
+.NavBar23:hover .c14in12 {
+  filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+    brightness(88%) contrast(126%);
+}
+
+.NavBar24 {
+  font-family: "angelarbeit", sans-serif;
+  display: inline-block;
+  padding: 8px 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 4px;
+  background-color: #000;
+  transition: all 150ms ease;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.NavBar24:hover {
+  background-color: #143fcd;
+  border-color: #143fcd;
+}
+
+.BlogBar {
+  display: none;
+  padding: 0%;
+  margin: 0%;
+}
+.BlogBarbutton {
+  display: none;
+  border: none;
+  background-color: #ffffff;
+}
+.none {
+  display: none;
+}
+.notnone {
+  display: none;
+}
+.notnoneborder {
+  border-bottom: 0px solid #d4d4d4;
+}
+.bluehover {
+  width: 100%;
+  margin-right: 0px;
+  padding: 8px 0px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.bluehover:hover {
+  filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+    brightness(88%) contrast(126%);
+}
+/* 450px */
+
+@media only screen and (max-width: 450px) {
+  .NavBarMain {
+    position: fixed;
+  }
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 300px;
+    top: 0%;
+    left: 0%;
+    background-color: #ffffff;
+    margin: 0px;
+    border-bottom: 1px solid #d4d4d4;
+    align-items: center;
+    text-align: center;
+    width: 361px;
+    padding: 0px 32px;
+    height: 80px;
+  }
+  .NavBar1 {
+    margin: 0px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .NavBar2 {
+    font-size: 16px;
+    margin-left: auto;
+    display: none;
+  }
+
+  .NavBar21 {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #000;
+  }
+  .NavBar21:hover {
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+  }
+
+  .NavBar23 {
+    font-size: 14px;
+    width: fit-content;
+    height: 42px;
+
+    padding: 8px 16px;
+  }
+  .NavBar23:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .NavBar23:hover .c14in12 {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+
+  .NavBar24 {
+    font-size: 14px;
+    width: fit-content;
+    height: 42px;
+    padding: 8px 16px;
+    margin: 8px 0px;
+  }
+  .NavBar24:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+
+  .BlogBar {
+    display: block;
+    height: 18px;
+    width: 18px;
+    padding: 20px;
+    text-align: right;
+  }
+  .BlogBarbutton {
+    display: block;
+    border: none;
+    background-color: #ffffff;
+  }
+  .none {
+    display: none;
+  }
+  .notnone {
+    z-index: 10000;
+    display: block;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vmax;
+    padding: 20px 8px;
+    margin-top: 40px;
+    padding-top: 40px;
+    /* margin-left: -80px; */
+    /* padding-left: 80px;
+    transition: width 2s; */
+    top: 0%;
+  }
+  .notnoneborder {
+    border-bottom: 0px solid #d4d4d4;
+  }
+}
+/* 800px */
+
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .NavBarMain {
+    position: fixed;
+  }
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 300px;
+    top: 0%;
+    left: 0%;
+    background-color: #ffffff;
+    margin: 0px;
+    border-bottom: 1px solid #d4d4d4;
+    align-items: center;
+    text-align: center;
+    width: 608px;
+    padding: 0px 80px;
+    height: 100px;
+  }
+  .NavBar1 {
+    margin: 0px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .NavBar2 {
+    font-size: 16px;
+    margin-left: auto;
+    display: none;
+  }
+
+  .NavBar21 {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #000;
+  }
+  .NavBar21:hover {
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+  }
+
+  .NavBar23 {
+    font-size: 14px;
+    width: fit-content;
+    height: 42px;
+    margin: 8px 0px;
+    margin-right: 16px;
+    padding: 8px 16px;
+  }
+  .NavBar23:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .NavBar23:hover .c14in12 {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+
+  .NavBar24 {
+    font-size: 14px;
+    width: fit-content;
+    height: 42px;
+    padding: 8px 16px;
+    margin: 8px 0px;
+  }
+  .NavBar24:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+
+  .BlogBar {
+    display: inline;
+    height: 18px;
+    width: 18px;
+    padding: 20px;
+    text-align: right;
+  }
+  .BlogBarbutton {
+    display: block;
+    border: none;
+    background-color: #ffffff;
+  }
+  .none {
+    display: none;
+  }
+  .notnone {
+    z-index: 10000;
+    display: block;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vmax;
+    margin-top: 80px;
+    /* padding-top: 40px;
+    margin-left: -80px;
+    padding-left: 80px; */
+    transition: width 2s;
+    /* top: 0%; */
+  }
+  .notnoneborder {
+    border-bottom: 0px solid #d4d4d4;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .NavBarMain {
+    background-color: #ffffff;
+    z-index: 200;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .NavBar {
+    border-bottom: 1px solid #d4d4d4;
+    z-index: 9999;
+    margin: 0%;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 24px;
+  }
+  .NavBar1 {
+    margin: 0%;
+  }
+
+  .NavBar2 {
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    text-align: right;
+  }
+
+  .NavBar21 {
+    margin-right: 24px;
+    text-decoration: none;
+    color: #000;
+  }
+  .NavBar21:hover {
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+  }
+
+  .NavBar23 {
+    height: 42px;
+    margin: 8px 16px 8px 0px;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    transition: all 150ms ease;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .NavBar23:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .NavBar23:hover .c14in12 {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+
+  .NavBar24 {
+    display: inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    transition: all 150ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-bottom: 16px;
+  }
+  .NavBar24:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+
+  .BlogBar {
+    display: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  .BlogBarbutton {
+    display: none;
+    border: none;
+    background-color: #ffffff;
+  }
+  .none {
+    display: none;
+  }
+  .notnone {
+    display: none;
+  }
+  .bluehover {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .bluehover:hover {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+}

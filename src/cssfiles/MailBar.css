@@ -1,0 +1,453 @@
+.MailBar {
+  border: 2px solid #dcdcdc;
+  border-width: 1px;
+  padding: 24px;
+  border-radius: 3px;
+  display: flex;
+  font-family: "angelarbeit", sans-serif;
+}
+.MailBar1 {
+  height: auto;
+  margin-right: 16px;
+  padding: 12px 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d4d4d4;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 19cm;
+  font-family: "angelarbeit", sans-serif;
+}
+.MailBar1:hover {
+  border-color: #143fcd;
+}
+.MailBar1:focus {
+  outline: none;
+  border-color: #143fcd;
+}
+.MailBar2 {
+  margin-right: 16px;
+  display: inline-block;
+  padding: 8px 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 4px;
+  background-color: #000;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: none;
+}
+.MailBar2:hover {
+  background-color: #143fcd;
+  border-color: #143fcd;
+}
+
+.MailBar3 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.MailBar4 {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcdcdc;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  line-height: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  display: flex;
+}
+.MailBar4:hover {
+  background: #eaebff;
+  border-color: #143fcd;
+  color: #143fcd;
+}
+.MailBar41 {
+  height: 24px;
+  width: 24px;
+  padding: 0px 0px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 450px) {
+  .MailBar {
+    border: 2px solid #dcdcdc;
+    border-width: 1px;
+    padding: 24px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+  }
+  .MailBar1 {
+    height: auto;
+    margin: 0px 0px 16px 0px;
+    padding: 12px 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 4px;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .MailBar1:hover {
+    border-color: #143fcd;
+  }
+  .MailBar1:focus {
+    outline: none;
+    border-color: #143fcd;
+  }
+  .MailBar2 {
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0%;
+  }
+  .MailBar2:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+
+  .MailBar3 {
+    justify-content: center;
+    text-align: center;
+    padding: 4px 0px;
+    margin: 0%;
+  }
+
+  .MailBar4 {
+    width: 100%;
+    margin: 0%;
+  }
+  .MailBar4:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .MailBar41 {
+    height: 24px;
+    width: 24px;
+    padding: 0px 0px;
+    margin-right: 5px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .MailBar {
+    border: 2px solid #dcdcdc;
+    border-width: 1px;
+    padding: 24px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .MailBar1 {
+    height: auto;
+    margin: 0%;
+    padding: 12px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .MailBar1:hover {
+    border-color: #143fcd;
+  }
+  .MailBar1:focus {
+    outline: none;
+    border-color: #143fcd;
+  }
+  .MailBar2 {
+    margin: 0%;
+    display: inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: #fff;
+    font-size: 15px;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  .MailBar2:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+
+  .MailBar3 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .MailBar4 {
+    margin: 0%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    line-height: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    display: flex;
+  }
+  .MailBar4:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .MailBar41 {
+    height: 24px;
+    width: 24px;
+    padding: 0px 0px;
+    margin-right: 5px;
+  }
+}
+/* 1000px */
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .MailBar {
+    border: 2px solid #dcdcdc;
+    border-width: 1px;
+    padding: 24px;
+    border-radius: 3px;
+    display: flex;
+  }
+  .MailBar1 {
+    height: auto;
+    margin-right: 16px;
+    padding: 12px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 24px;
+    width: fit-content;
+    width: 49.5%;
+  }
+  .MailBar1:hover {
+    border-color: #143fcd;
+  }
+  .MailBar1:focus {
+    outline: none;
+    border-color: #143fcd;
+  }
+  .MailBar2 {
+    margin-right: 16px;
+    display: inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  .MailBar2:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+
+  .MailBar3 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .MailBar4 {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    line-height: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    display: flex;
+  }
+  .MailBar4:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .MailBar41 {
+    height: 24px;
+    width: 24px;
+    padding: 0px 0px;
+    margin-right: 5px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .MailBar1 {
+    height: auto;
+    margin-right: 16px;
+    padding: 12px 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 66.5%;
+  }
+}
+.component4 {
+  background-color: #fff;
+
+  color: #777777;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 20px;
+}
+.component41 {
+  margin-right: 20.5cm;
+}
+
+.component42 {
+  justify-content: space-between;
+  align-content: l;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .component4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .component41 {
+    margin: 0px 0px 16px 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .component42 {
+    justify-content: space-between;
+    align-content: l;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+  }
+  .component4c {
+    text-decoration: none;
+    color: #000000;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  .component4c:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  .component4ctext {
+    text-decoration: underline;
+    padding-bottom: 8px;
+    color: #777;
+    font-size: 14px;
+  }
+  .component4ctext:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .component4 {
+    background-color: #fff;
+
+    color: #777777;
+    font-size: 15px;
+    line-height: 140%;
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .component41 {
+    margin-right: 0%;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .MailBar1 {
+    height: auto;
+    margin-right: 16px;
+    padding: 12px 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    /* width: 66.5%; */
+  }
+  .component4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+
+    color: #777777;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 20px;
+  }
+  .component41 {
+    margin: 0%;
+  }
+
+  .component42 {
+    justify-content: space-between;
+    align-content: l;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,145 @@
+.CountBar {
+  margin-top: 1.8cm;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  font-family: "angelgalano", sans-serif;
+}
+.CountBar1 {
+  border: 2px solid #dcdcdc;
+  padding: 60px 0px;
+  border-left: 0ch;
+  width: 453px;
+}
+.CountBart1c {
+
+  font-size: 38.4px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.8cm;
+  margin-bottom: 8px;
+}
+.CountBart2c {
+  
+  font-size: 22.4px;
+  font-weight: bold;
+  text-align: center;
+}
+.CountBarforhr {
+  margin: -2px -2cm 0px -2cm;
+}
+@media only screen and (max-width: 450px) {
+  .CountBar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dcdcdc;
+    border-width: 1px 0px;
+  }
+  .CountBar1 {
+    padding: 40px 0px;
+    border: 0ch;
+    width: 100%;
+  }
+  .CountBart1c {
+ 
+    font-size: 32px;
+    line-height: 31px;
+    letter-spacing: -0.2px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 8px 0px;
+    padding: 0%;
+  }
+  .CountBart2c {
+   
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .CountBar2 {
+    padding: 20px 0px;
+    border: 0ch;
+  }
+  .CountBar3 {
+    padding: 40px 0px;
+    border: 0ch;
+  }
+  .CountBarforhr {
+    margin: -2px -32px 0px -32px;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .CountBar {
+  
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dcdcdc;
+    border-width: 1px 0px;
+  }
+  .CountBar1 {
+    padding: 40px 0px;
+    border: 0ch;
+  }
+  .CountBart1c {
+ 
+    font-size: 30px;
+    line-height: 31px;
+    letter-spacing: -0.2px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 8px 0px;
+    padding: 0%;
+  }
+  .CountBart2c {
+      font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .CountBar2 {
+    padding: 20px 0px;
+    border: 0ch;
+  }
+  .CountBar3 {
+    padding: 40px 0px;
+    border: 0ch;
+  }
+  .CountBarforhr {
+    margin: -2px -80px 0px -80px;
+  }
+}
+@media only screen and (min-width:1000px)and (max-width:1400px){
+  .CountBar {
+    margin-top: 1.8cm;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .CountBar1 {
+    border: 2px solid #dcdcdc;
+    padding: 60px 0px;
+    border-left: 0ch;
+    width: 453px;
+  }
+  .CountBart1c {
+    
+    font-size: 38.4px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.8cm;
+    margin-bottom: 8px;
+  }
+  .CountBart2c {
+
+    font-size: 22.4px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .CountBarforhr {
+    margin: -2px -2cm 0px -2cm;
+  }
+}

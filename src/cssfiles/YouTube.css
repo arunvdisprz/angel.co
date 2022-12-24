@@ -1,0 +1,27 @@
+.ytimage {
+  height: 350px;
+  width: 608px;
+}
+.GotTalentBar23text {
+  padding-top: 10px;
+}
+@media only screen and (max-width: 450px) {
+  .ytimage {
+    height: 200px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+}
+.GotTalentBar23text {
+  padding-top: 10px;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .ytimage {
+    height: 200px;
+    width: 400px;
+  }
+  .GotTalentBar23text {
+    display: block;
+  }
+}

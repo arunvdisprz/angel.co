@@ -1,0 +1,203 @@
+.JobCollectionin {
+  margin-bottom: -1px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: center;
+
+}
+
+.JobCollectionin1:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+.JobCollectionin12 {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -3px;
+  padding: 0px 8px;
+}
+.JobCollectionin12:hover {
+  filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+    brightness(88%) contrast(126%);
+}
+.NavBar23d {
+  margin-right: 16px;
+  padding: 8px 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcdcdc;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "angelarbeit", sans-serif;
+}
+.NavBar23d:hover {
+  background: #eaebff;
+  border-color: #143fcd;
+  color: #143fcd;
+}
+.NavBar23d:hover .JobCollectionin12 {
+  filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+    brightness(88%) contrast(126%);
+}
+
+.dropdown-content {
+  color: #000;
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding-left: -16px;
+  width: max-content;
+  text-align: left;
+  /* margin-top: 8px;
+  margin-left: -16px; */
+}
+.dropdown-content-text {
+  margin: 0%;
+  padding: 8px 16px;
+}
+.dropdown-content-text:hover {
+  color: #143fcd;
+  background-color: #eaebff;
+}
+
+@media only screen and (max-width: 450px) {
+  .JobCollectionin {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 361px;
+  }
+  .JobCollectionin1:hover .dropdown-content {
+    display: block;
+  }
+  .JobCollectionin12 {
+    width: 14px;
+    height: 14px;
+    padding: 0px 0px 0px 0px;
+  }
+  .JobCollectionin12:hover {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+  .NavBar23d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0%;
+    margin-top: 16px;
+    width: 361px;
+    /* padding: 8px 50px 12px 16px; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .NavBar23d:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .NavBar23d:hover .JobCollectionin12 {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+  .NavBar23d:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    color: #000;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: max-content;
+    text-align: left;
+  }
+  .dropdown-content-text {
+    margin: 0%;
+    padding: 8px 16px;
+  }
+  .dropdown-content-text:hover {
+    color: #143fcd;
+    background-color: #eaebff;
+  }
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .JobCollectionin {
+    justify-content: flex-start;
+    padding: 80px 0px;
+    text-align: left;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  .JobCollectionin12 {
+    width: 16px;
+    height: 16px;
+    margin-bottom: -3px;
+    padding: 0px 8px;
+  }
+  .JobCollectionin12:hover {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+  .NavBar23d {
+   margin-top: 16px;
+   font-size: 15px;
+  }
+  .NavBar23d:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .NavBar23d:hover .JobCollectionin12 {
+    filter: invert(28%) sepia(62%) saturate(1761%) hue-rotate(208deg)
+      brightness(88%) contrast(126%);
+  }
+  .NavBar23d:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    color: #000;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: max-content;
+    text-align: left;
+  }
+  .dropdown-content-text {
+    margin: 0%;
+    padding: 8px 16px;
+  }
+  .dropdown-content-text:hover {
+    color: #143fcd;
+    background-color: #eaebff;
+  }
+}
+@media only screen and (min-width:1000px)and (max-width:1400px){
+  .JobCollectionin {
+    margin-bottom: -1px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  .JobCollectionin1 {
+    margin-top: 16px;
+  }
+}

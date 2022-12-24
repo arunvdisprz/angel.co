@@ -1,0 +1,312 @@
+.BulidBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0px;
+  margin-top: 40px;
+}
+.BulidBarone {
+  width: 100%;
+}
+.BulidBar1 {
+  font-family: "angelgalano", sans-serif;
+  color: #000;
+  font-size: 52px;
+  line-height: 64px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  margin-top: 3cm;
+  margin-bottom: 1cm;
+  max-width: 400px;
+}
+
+.BulidBar2 {
+  max-width: 450px;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: "angelarbeit", sans-serif;
+  color: #000;
+  margin: 0px 80px 40px 0px;
+}
+.BulidBar3 {
+  font-family: "angelarbeit", sans-serif;
+  display: inline-block;
+  padding: 12px 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-right: 1cm;
+}
+.BulidBar3:hover {
+  background-color: #143fcd;
+  border-color: #143fcd;
+}
+.BulidBar4 {
+  display: inline-block;
+  padding: 12px 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcdcdc;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  transition: all 150ms ease;
+  font-family: "angelarbeit", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.BulidBar4:hover {
+  background: #eaebff;
+  border-color: #143fcd;
+  color: #143fcd;
+}
+.BulidBarsecond {
+  width: 100%;
+  height: auto;
+}
+.imagecenter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: auto 0px;
+}
+.BulidBarSpecific1{
+  max-width: 450px;
+}
+/* 450px */
+@media only screen and (max-width: 450px) {
+  .BulidBar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .BulidBar1 {
+    color: #000;
+    font-size: 29px;
+    margin: 40px 0px 16px 0px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    padding-right: 0px;
+  }
+
+  .BulidBar2 {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px 0px 40px 0px;
+  }
+  .BulidBar3 {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+  .BulidBar3:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+  .BulidBar4 {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+  .BulidBar4:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .BulidBarone {
+    margin: 0px 0px 0px 0px;
+  }
+  .BulidBarsecond {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+  }
+  .BulidBarSpecific1{
+    max-width: 250px;
+  }
+}
+/* 800px */
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .BulidBar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .BulidBar1 {
+    color: #000;
+    font-size: 35px;
+    margin: 40px 0px 16px 0px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    padding-right: 0px;
+    max-width: 100%;
+  }
+
+  .BulidBar2 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px 0px 40px 0px;
+    max-width: 100%;
+  }
+  .BulidBar3 {
+    display: inline-block;
+    padding: 12px 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  .BulidBar3:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+  .BulidBar4 {
+    display: inline-block;
+    padding: 12px 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .BulidBar4:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+
+  .BulidBarsecond {
+    width: 100%;
+    margin: 0%;
+  }
+  .BulidBarSpecific1{
+    max-width: 300px;
+  }
+}
+/* 1000px */
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .BulidBar {
+    display: grid;
+    grid-column-gap: 80px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 80px 0px;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  .BulidBar1 {
+    color: #000;
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    margin: 0px 0px 16px 0px;
+    padding-right: 0px;
+  }
+
+  .BulidBar2 {
+    margin-bottom: 40px;
+    margin-right: 0px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+    padding: 0%;
+  }
+  .BulidBar3 {
+    display: inline-block;
+    padding: 12px 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  .BulidBar3:hover {
+    background-color: #143fcd;
+    border-color: #143fcd;
+  }
+  .BulidBar4 {
+    display: inline-block;
+    padding: 12px 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .BulidBar4:hover {
+    background: #eaebff;
+    border-color: #143fcd;
+    color: #143fcd;
+  }
+  .BulidBarone {
+    width: 392px;
+    height: 100%;
+    padding: auto;
+  }
+  .BulidBarsecond {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .BulidBarSpecific1{
+    max-width: 280px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .BulidBar3 {
+    display: inline-block;
+    padding: 12px 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+}

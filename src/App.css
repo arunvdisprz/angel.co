@@ -1,0 +1,32 @@
+@font-face {
+  src: url(/public/Galano.otf);
+  font-family: "angelgalano";
+}
+@font-face {
+  src: url(/public/Arbeit-Regular.otf);
+  font-family: "angelarbeit";
+}
+.paddingfullpage {
+  padding: 30px 80px;
+}
+.imagecentervalue {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+@media only screen and (max-width: 450px) {
+  .paddingfullpage {
+    padding: 0px 32px;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .paddingfullpage {
+    padding: 0px 80px;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+  .paddingfullpage {
+    padding: 30px 80px;
+  }
+}
